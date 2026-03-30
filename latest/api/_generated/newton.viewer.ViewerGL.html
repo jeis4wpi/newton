@@ -168,15 +168,15 @@
 
 
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="../../guide/key-concepts.html">
-    Key Concepts
+  <a class="nav-link nav-internal" href="../../guide/tutorials.html">
+    Tutorials
   </a>
 </li>
 
 
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="../../guide/tutorials.html">
-    Tutorials
+  <a class="nav-link nav-internal" href="../../guide/development.html">
+    Development
   </a>
 </li>
 
@@ -188,13 +188,6 @@
                 </button>
                 <ul id="pst-nav-more-links" class="dropdown-menu">
                     
-<li class=" ">
-  <a class="nav-link dropdown-item nav-internal" href="../../guide/development.html">
-    Development
-  </a>
-</li>
-
-
 <li class=" ">
   <a class="nav-link dropdown-item nav-internal" href="../../concepts/worlds.html">
     Worlds
@@ -480,13 +473,6 @@
 
 
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="../../guide/key-concepts.html">
-    Key Concepts
-  </a>
-</li>
-
-
-<li class="nav-item ">
   <a class="nav-link nav-internal" href="../../guide/tutorials.html">
     Tutorials
   </a>
@@ -719,7 +705,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../../guide/overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../guide/installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../guide/visualization.html">Visualization</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../guide/key-concepts.html">Key Concepts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../guide/tutorials.html">Tutorials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../guide/development.html">Development</a></li>
 </ul>
@@ -826,8 +811,8 @@
 <h1>newton.viewer.ViewerGL<a class="headerlink" href="#newton-viewer-viewergl" title="Link to this heading">#</a></h1>
 <dl class="py class">
 <dt class="sig sig-object py" id="newton.viewer.ViewerGL">
-<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">newton.viewer.</span></span><span class="sig-name descname"><span class="pre">ViewerGL</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1920</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1080</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vsync</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">headless</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/newton-physics/newton/blob/main/newton/_src/viewer/viewer_gl.py#L181"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#newton.viewer.ViewerGL" title="Link to this definition">#</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ViewerBase</span></code></p>
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">newton.viewer.</span></span><span class="sig-name descname"><span class="pre">ViewerGL</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1920</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1080</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vsync</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">headless</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/newton-physics/newton/blob/main/newton/_src/viewer/viewer_gl.py#L169"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#newton.viewer.ViewerGL" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <a class="reference internal" href="newton.viewer.ViewerBase.html#newton.viewer.ViewerBase" title="newton._src.viewer.viewer.ViewerBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">ViewerBase</span></code></a></p>
 <p>OpenGL-based interactive viewer for Newton physics models.</p>
 <p>This class provides a graphical interface for visualizing and interacting with
 Newton models using OpenGL rendering. It supports real-time simulation control,
@@ -996,7 +981,7 @@ Int examples: pyglet.window.key.W, pyglet.window.key.SPACE</p>
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a>) – Unique path/name for the array signal.</p></li>
-<li><p><strong>array</strong> (<em>wp.array</em><em>(</em><em>dtype=Any</em><em>) </em><em>| </em><em>nparray</em>) – Array data to visualize.</p></li>
+<li><p><strong>array</strong> (<em>wp.array</em><em>(</em><em>dtype=Any</em><em>) </em><em>| </em><em>np.ndarray</em>) – Array data to visualize.</p></li>
 </ul>
 </dd>
 </dl>
@@ -1041,13 +1026,21 @@ prototype meshes (unit cylinder + unit sphere) and applying per-instance transfo
 
 <dl class="py method">
 <dt class="sig sig-object py" id="newton.viewer.ViewerGL.log_gizmo">
-<span class="sig-name descname"><span class="pre">log_gizmo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">transform</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#newton.viewer.ViewerGL.log_gizmo" title="Link to this definition">#</a></dt>
+<span class="sig-name descname"><span class="pre">log_gizmo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">transform</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">translate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rotate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snap_to</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#newton.viewer.ViewerGL.log_gizmo" title="Link to this definition">#</a></dt>
 <dd><p>Log or update a transform gizmo for the current frame.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.14)"><em>str</em></a>) – Unique gizmo path/name.</p></li>
 <li><p><strong>transform</strong> (<a class="reference external" href="https://nvidia.github.io/warp/api_reference/_generated/warp.transformf.html#warp.transformf" title="(in Warp v1.12.0)"><em>transformf</em></a>) – Gizmo world transform.</p></li>
+<li><p><strong>translate</strong> (<a class="reference external" href="https://docs.python.org/3/library/collections.abc.html#collections.abc.Sequence" title="(in Python v3.14)"><em>Sequence</em></a><em>[</em><a class="reference internal" href="newton.Axis.html#newton.Axis" title="newton._src.core.types.Axis"><em>Axis</em></a><em>] </em><em>| </em><em>None</em>) – Axes on which the translation handles are shown.
+Defaults to all axes when <code class="docutils literal notranslate"><span class="pre">None</span></code>. Pass an empty sequence
+to hide all translation handles.</p></li>
+<li><p><strong>rotate</strong> (<a class="reference external" href="https://docs.python.org/3/library/collections.abc.html#collections.abc.Sequence" title="(in Python v3.14)"><em>Sequence</em></a><em>[</em><a class="reference internal" href="newton.Axis.html#newton.Axis" title="newton._src.core.types.Axis"><em>Axis</em></a><em>] </em><em>| </em><em>None</em>) – Axes on which the rotation rings are shown.
+Defaults to all axes when <code class="docutils literal notranslate"><span class="pre">None</span></code>. Pass an empty sequence
+to hide all rotation rings.</p></li>
+<li><p><strong>snap_to</strong> (<a class="reference external" href="https://nvidia.github.io/warp/api_reference/_generated/warp.transformf.html#warp.transformf" title="(in Warp v1.12.0)"><em>transformf</em></a><em> | </em><em>None</em>) – Optional world transform to snap to when this gizmo is
+released by the user.</p></li>
 </ul>
 </dd>
 </dl>
@@ -1379,39 +1372,39 @@ Everything else (capsules, SDF, particles, joints, …) uses the standard path.<
   <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL"><code class="docutils literal notranslate"><span class="pre">ViewerGL</span></code></a><ul class="visible nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.__init__"><code class="docutils literal notranslate"><span class="pre">ViewerGL.__init__()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.apply_forces"><code class="docutils literal notranslate"><span class="pre">ViewerGL.apply_forces()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.begin_frame"><code class="docutils literal notranslate"><span class="pre">ViewerGL.begin_frame()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.clear_model"><code class="docutils literal notranslate"><span class="pre">ViewerGL.clear_model()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.close"><code class="docutils literal notranslate"><span class="pre">ViewerGL.close()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.end_frame"><code class="docutils literal notranslate"><span class="pre">ViewerGL.end_frame()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.get_frame"><code class="docutils literal notranslate"><span class="pre">ViewerGL.get_frame()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.is_key_down"><code class="docutils literal notranslate"><span class="pre">ViewerGL.is_key_down()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.is_paused"><code class="docutils literal notranslate"><span class="pre">ViewerGL.is_paused()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.is_running"><code class="docutils literal notranslate"><span class="pre">ViewerGL.is_running()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_array"><code class="docutils literal notranslate"><span class="pre">ViewerGL.log_array()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_capsules"><code class="docutils literal notranslate"><span class="pre">ViewerGL.log_capsules()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_gaussian"><code class="docutils literal notranslate"><span class="pre">ViewerGL.log_gaussian()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_gizmo"><code class="docutils literal notranslate"><span class="pre">ViewerGL.log_gizmo()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_instances"><code class="docutils literal notranslate"><span class="pre">ViewerGL.log_instances()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_lines"><code class="docutils literal notranslate"><span class="pre">ViewerGL.log_lines()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_mesh"><code class="docutils literal notranslate"><span class="pre">ViewerGL.log_mesh()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_points"><code class="docutils literal notranslate"><span class="pre">ViewerGL.log_points()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_scalar"><code class="docutils literal notranslate"><span class="pre">ViewerGL.log_scalar()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_state"><code class="docutils literal notranslate"><span class="pre">ViewerGL.log_state()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_key_press"><code class="docutils literal notranslate"><span class="pre">ViewerGL.on_key_press()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_key_release"><code class="docutils literal notranslate"><span class="pre">ViewerGL.on_key_release()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_mouse_drag"><code class="docutils literal notranslate"><span class="pre">ViewerGL.on_mouse_drag()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_mouse_motion"><code class="docutils literal notranslate"><span class="pre">ViewerGL.on_mouse_motion()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_mouse_press"><code class="docutils literal notranslate"><span class="pre">ViewerGL.on_mouse_press()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_mouse_release"><code class="docutils literal notranslate"><span class="pre">ViewerGL.on_mouse_release()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_mouse_scroll"><code class="docutils literal notranslate"><span class="pre">ViewerGL.on_mouse_scroll()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_resize"><code class="docutils literal notranslate"><span class="pre">ViewerGL.on_resize()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.register_ui_callback"><code class="docutils literal notranslate"><span class="pre">ViewerGL.register_ui_callback()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.set_camera"><code class="docutils literal notranslate"><span class="pre">ViewerGL.set_camera()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.set_model"><code class="docutils literal notranslate"><span class="pre">ViewerGL.set_model()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.set_world_offsets"><code class="docutils literal notranslate"><span class="pre">ViewerGL.set_world_offsets()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.vsync"><code class="docutils literal notranslate"><span class="pre">ViewerGL.vsync</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.__init__"><code class="docutils literal notranslate"><span class="pre">__init__()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.apply_forces"><code class="docutils literal notranslate"><span class="pre">apply_forces()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.begin_frame"><code class="docutils literal notranslate"><span class="pre">begin_frame()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.clear_model"><code class="docutils literal notranslate"><span class="pre">clear_model()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.close"><code class="docutils literal notranslate"><span class="pre">close()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.end_frame"><code class="docutils literal notranslate"><span class="pre">end_frame()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.get_frame"><code class="docutils literal notranslate"><span class="pre">get_frame()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.is_key_down"><code class="docutils literal notranslate"><span class="pre">is_key_down()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.is_paused"><code class="docutils literal notranslate"><span class="pre">is_paused()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.is_running"><code class="docutils literal notranslate"><span class="pre">is_running()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_array"><code class="docutils literal notranslate"><span class="pre">log_array()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_capsules"><code class="docutils literal notranslate"><span class="pre">log_capsules()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_gaussian"><code class="docutils literal notranslate"><span class="pre">log_gaussian()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_gizmo"><code class="docutils literal notranslate"><span class="pre">log_gizmo()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_instances"><code class="docutils literal notranslate"><span class="pre">log_instances()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_lines"><code class="docutils literal notranslate"><span class="pre">log_lines()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_mesh"><code class="docutils literal notranslate"><span class="pre">log_mesh()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_points"><code class="docutils literal notranslate"><span class="pre">log_points()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_scalar"><code class="docutils literal notranslate"><span class="pre">log_scalar()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.log_state"><code class="docutils literal notranslate"><span class="pre">log_state()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_key_press"><code class="docutils literal notranslate"><span class="pre">on_key_press()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_key_release"><code class="docutils literal notranslate"><span class="pre">on_key_release()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_mouse_drag"><code class="docutils literal notranslate"><span class="pre">on_mouse_drag()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_mouse_motion"><code class="docutils literal notranslate"><span class="pre">on_mouse_motion()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_mouse_press"><code class="docutils literal notranslate"><span class="pre">on_mouse_press()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_mouse_release"><code class="docutils literal notranslate"><span class="pre">on_mouse_release()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_mouse_scroll"><code class="docutils literal notranslate"><span class="pre">on_mouse_scroll()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.on_resize"><code class="docutils literal notranslate"><span class="pre">on_resize()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.register_ui_callback"><code class="docutils literal notranslate"><span class="pre">register_ui_callback()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.set_camera"><code class="docutils literal notranslate"><span class="pre">set_camera()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.set_model"><code class="docutils literal notranslate"><span class="pre">set_model()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.set_world_offsets"><code class="docutils literal notranslate"><span class="pre">set_world_offsets()</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#newton.viewer.ViewerGL.vsync"><code class="docutils literal notranslate"><span class="pre">vsync</span></code></a></li>
 </ul>
 </li>
 </ul>
